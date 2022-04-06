@@ -1,0 +1,15 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: demo-user-management
+
+  datasource:
+    url: jdbc:mysql://localhost/mydb
+    username: root
+    password: jagaban##
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
